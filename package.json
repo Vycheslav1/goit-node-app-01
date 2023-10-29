@@ -1,0 +1,23 @@
+{
+  "name": "goit-node-app-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js"
+  },
+  "keywords":[],
+  "author": "Viacheslav",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.9",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "nanoid": "^5.0.2",
+    "path": "^0.12.7"
+  }
+}
